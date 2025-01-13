@@ -16,9 +16,9 @@ def count_vowels(word):
     vowels = 'aeiou'
     count = 0
     for char in word:
-        if char in vowels:
+        if char.lower() in vowels:
             count += 1
-    return word
+    print(count)
 count_vowels(word = 'parameter')
 
 
